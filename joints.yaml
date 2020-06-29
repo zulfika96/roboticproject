@@ -1,5 +1,4 @@
 # roboticproject
-for robotic
 # Publish all joint states -----------------------------------
 joint_state_controller:
   type: joint_state_controller/JointStateController
@@ -22,7 +21,3 @@ joint4_position_controller:
   type: effort_controllers/JointPositionController
   joint: link_03__link_04
   pid: {p: 2000.0, i: 50, d: 200.0}
-joint5_position_controller:
-  type: effort_controllers/JointPositionController
-  joint: link_04__link_05
-  pid: {p: 700.0, i: 50, d: 70.0}
